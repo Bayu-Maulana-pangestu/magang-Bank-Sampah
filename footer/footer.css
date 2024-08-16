@@ -1,0 +1,145 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+
+html{
+    border-color: white;
+}
+
+body{
+    font: 16px/1.6 arial, sans-serif;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+}
+
+.footer {
+    background-color: #10971c;
+    box-sizing: border-box;
+    width: 100%;
+    text-align:left ;
+    font: bold 16px sans-serif;
+    padding: 50px 50px 60px 50px;
+    margin-top: 20px;
+}
+
+
+.footer .footer-left,
+.footer .footer-center,
+.footer .footer-tautan {
+    display: inline-block;
+    vertical-align: top;
+}
+
+
+@media (max-height:800px) {
+    footer {
+        position: static;
+    }
+}
+
+.footer .footer-left {
+    width: 30%;
+}
+
+.footer h3{
+    color: rgb(255, 255, 255);
+    margin: 0;
+    padding-bottom: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 25px;
+}
+
+.footer img{
+    width: 25%;
+    vertical-align: middle;
+    padding-top: 20px;
+}
+
+.footer .footer-left .credit-cards {
+    width: 100%;
+}
+
+.footer .footer-center{
+    width: 35%;
+}
+
+.footer .footer-center i{
+    background-color: #dd0000;
+    color: #fff;
+    font-size: 25px;
+    width: 38px;
+    height: 38px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 42px;
+    margin: 10px 15px;
+    vertical-align: middle;
+}
+
+
+.footer .footer-center p {
+    display: inline-block;
+    color: #ffffff;
+    vertical-align: middle;
+    margin: 0px;
+}
+
+
+.footer .footer-center p a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+.footer .footer-tautan{
+    width: 30%;
+    text-align: center;
+    text-decoration: none;
+}
+
+
+.footer .footer-tautan p {
+padding: 2%;
+font-size: 18px;
+}
+
+.footer .footer-tautan p a{
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.footer-tautan h3{
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.footer-media{
+    padding-top: 30px;
+}
+
+.footer .footer-media i{
+    color: #fff;
+    font-size: 25px;
+    width: 38px;
+    height: 38px;
+    text-align: center;
+    line-height: 42px;
+    margin: 10px 15px;
+    vertical-align: middle;
+}
+
+
+.footer .copyright{
+    text-align: center;
+}
+
+.footer .copyright p{
+    color: #dbd6d6;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+

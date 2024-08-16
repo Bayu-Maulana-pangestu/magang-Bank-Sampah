@@ -1,0 +1,100 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f8f8;
+    line-height: 1.6;
+}
+
+/* Container Styling */
+.container-fluid {
+    padding: 20px;
+}
+
+/* Page Header Styling */
+.page-header {
+    margin: 10px 0;
+    font-size: 24px;
+}
+
+/* Panel Styling */
+.panel {
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    background-color: #fff;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
+}
+
+.panel-heading {
+    padding: 10px 15px;
+    border-bottom: 1px solid #ddd;
+}
+
+.panel-heading h4 {
+    margin-top: 0;
+    font-size: 18px;
+}
+
+.panel-body {
+    padding: 15px;
+}
+
+.panel-footer {
+    padding: 10px 15px;
+    background-color: #f5f5f5;
+    border-top: 1px solid #ddd;
+}
+
+.panel-footer a {
+    color: #333;
+    text-decoration: none;
+}
+
+.panel-footer a:hover {
+    text-decoration: underline;
+}
+
+/* Icon Styling */
+.panel-heading .fa {
+    font-size: 5em;
+    color: #fff;
+}
+
+.panel-footer .fa {
+    font-size: 1.5em;
+    vertical-align: middle;
+}
+
+/* Color Classes */
+.panel-primary .panel-heading {
+    background-color: #337ab7;
+    border-color: #337ab7;
+}
+
+.panel-yellow .panel-heading {
+    background-color: #f0ad4e;
+    border-color: #f0ad4e;
+}
+
+.panel-green .panel-heading {
+    background-color: #5cb85c;
+    border-color: #5cb85c;
+}
+
+.panel-red .panel-heading {
+    background-color: #d9534f;
+    border-color: #d9534f;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+    .panel {
+        margin-bottom: 10px;
+    }
+}
